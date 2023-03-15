@@ -14,13 +14,20 @@
 <body>
     <!-- Cabeçalho -->
     <header>
-        <img src="imgs/logo.jpg" alt="" id="logo">
-        <ul id="menu">
-            <li><a href="#">Título</a></li>
-            <li><a href="#">Titulo2</a></li>
-            <li><a href="#">Psicólogos</a></li>
-            <li><a href="#">Sobre nós</a></li>
-        </ul>
+        <div class="container">
+            <div class="row elemHeader">
+                <div class="col-2">
+                    <img src="imgs/logo.png" alt="" id="logo">
+                </div>
+                <div class="col-10">
+                    <ul id="menu">
+                        <li><a href="#">Título</a></li>
+                        <li><a href="#">Psicólogos</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- Corpo -->
     <main>
@@ -36,7 +43,20 @@
     </main>
     <!-- Rodapé -->
     <footer>
-        <img src="imgs/logo.jpg" alt="" id="logo">
+        <div class="container">
+            <div class="row elemFooter">
+                <div class="col-2">
+                    <img src="imgs/logo.png" alt="" id="logo">
+                </div>
+                <div class="col-3">
+                    <div class="midiasSociais">
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="telaPrincipal.js"></script>
