@@ -6,9 +6,12 @@
 header, footer{
     background-color: #483D8B;
 }
+main{
+    background-color: #f7f7f7;
+}
 #logo{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 .elemHeader{
     display: flex;
@@ -40,15 +43,29 @@ h1{
     text-align: center;
     font-variant: small-caps;
 }
+.infosPsic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
 #psicologo{
     width: 360px;
     height: 360px;
+    
 }
 .elemFooter{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+#copyright{
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: large;
 }
 .midiasSociais i{
     color: #FFF;
