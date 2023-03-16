@@ -40,6 +40,10 @@ h1{
     text-align: center;
     font-variant: small-caps;
 }
+#psicologo{
+    width: 360px;
+    height: 360px;
+}
 .elemFooter{
     display: flex;
     flex-direction: row;
