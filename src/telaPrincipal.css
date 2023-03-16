@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    background-color: #f7f7f7;
+}
 header, footer{
     background-color: #483D8B;
 }
@@ -64,7 +67,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
     margin-bottom: 1em;
 }
 #psicologo{
