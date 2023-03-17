@@ -1,3 +1,4 @@
+/* Gerais */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,10 @@
 }
 header, footer{
     background-color: #483D8B;
+}
+#logo{
+    width: 200px;
+    height: 200px;
 }
 body::-webkit-scrollbar{
     width: 1.2em;
@@ -16,10 +21,8 @@ body::-webkit-scrollbar-thumb{
     background-color: #d0c3f1;
     border-radius: 10px;
 }
-#logo{
-    width: 200px;
-    height: 200px;
-}
+
+/* Style cabeçalho */
 .elemHeader{
     display: flex;
     flex-direction: row;
@@ -55,6 +58,19 @@ header i{
     background-color: #1e0f24;
     transition: all 0.8s;
 }
+
+/* Style corpo */
+#logo-SobreNos{
+    width: 384.615384615px;
+    height: 384.615384615px;
+    border: 3px solid #171a21;
+}
+.psicologos, .sobreNos, .techPsique{
+    margin-bottom: 2em;
+}
+.psicologos{
+    margin-top: 2em;
+}
 h1{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
@@ -70,16 +86,16 @@ h1{
 .psicologos .container > .infosPsic:last-child, #btn-Menos{
     display: none;
 } 
-#psicologo{
+#imgPsic{
     width: 360px;
     height: 360px;
     border-radius: 1em;
 }
 #btn-Mais, #btn-Menos{
     padding: 10px;
-    border: 1px solid #1e0f24;
+    border: 2px solid #1e0f24;
     position: relative;
-    left: 54em;
+    left: 28cm;
     border-radius: 2em;
     background-color: #483D8B;
     color: #FFF;
@@ -88,6 +104,17 @@ h1{
     letter-spacing: -0.02em;
     font-size: larger;
 }
+.sobreNos h1{
+    text-align: start;
+}
+#descricao{
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    letter-spacing: -0.02em;
+    text-align: justify;
+}
+
+/* Style rodapé */
 .elemFooter{
     display: flex;
     flex-direction: row;
