@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb{
 }
 header i{
     font-size: xx-large;
-    color: white;
+    color: #FFF;
     cursor: pointer;
 }
 #menu{
