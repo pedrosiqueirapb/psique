@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
-    background-color: #f7f7f7;
-}
 header, footer{
     background-color: #483D8B;
 }
@@ -43,7 +40,7 @@ header i{
     justify-content: center;
 }
 #menu li{
-    margin-right: 10rem;
+    margin-right: 7rem;
     list-style: none;
     color: #FFF;
     font-size: x-large;
@@ -62,6 +59,7 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     font-variant: small-caps;
+    letter-spacing: -0.02em;
 }
 .infosPsic{
     display: flex;
@@ -69,33 +67,37 @@ h1{
     align-items: center;
     margin-bottom: 1em;
 }
+.psicologos .container > .infosPsic:last-child, #btn-Menos{
+    display: none;
+} 
 #psicologo{
     width: 360px;
     height: 360px;
+    border-radius: 1em;
 }
-#btn-Mais{
+#btn-Mais, #btn-Menos{
     padding: 10px;
     border: 1px solid #1e0f24;
-    float: right;
     position: relative;
-    right: 10em;
+    left: 54em;
     border-radius: 2em;
     background-color: #483D8B;
     color: #FFF;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace;
+    text-shadow: 1px 3px 3px #000;
+    letter-spacing: -0.02em;
     font-size: larger;
 }
 .elemFooter{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 #copyright{
     color: #FFF;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-variant: small-caps;
-    font-size: large;
+    font-size: medium;
 }
 .midiasSociais i{
     color: #FFF;
