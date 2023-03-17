@@ -77,6 +77,9 @@ h1{
     font-variant: small-caps;
     letter-spacing: -0.02em;
 }
+p{
+    font-family: 'Signika Negative', sans-serif;
+}
 .infosPsic{
     display: flex;
     justify-content: center;
@@ -109,7 +112,6 @@ h1{
 }
 #descricao{
     font-size: larger;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     letter-spacing: -0.02em;
     text-align: justify;
 }
@@ -122,9 +124,8 @@ h1{
 }
 #copyright{
     color: #FFF;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-variant: small-caps;
-    font-size: medium;
+    font-size: large;
 }
 .midiasSociais i{
     color: #FFF;
