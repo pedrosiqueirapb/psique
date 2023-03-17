@@ -38,7 +38,7 @@ header i{
     color: #FFF;
     cursor: pointer;
 }
-#menu{
+#menu ul{
     display: flex;
     justify-content: center;
 }
