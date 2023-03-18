@@ -5,7 +5,7 @@ $(document).ready(()=>{
     $('.temaEscuro').click(()=>{
         $('body').css('background-color', '#171a21')
         $('h1, #descricao').css('color', '#FFF')
-        $('#logo-SobreNos').css('border-color', '#f7f7f7')
+        $('#logotipo').css('border-color', '#f7f7f7')
         $('.temaEscuro').hide()
         $('.temaClaro').show()
     })
@@ -13,7 +13,7 @@ $(document).ready(()=>{
     $('.temaClaro i').click(()=>{
         $('body').css('background-color', '#f7f7f7')
         $('h1, #descricao').css('color', '#000')
-        $('#logo-SobreNos').css('border-color', '#171a21')
+        $('#logotipo').css('border-color', '#171a21')
         $('.temaEscuro').show()
         $('.temaClaro').hide()
     })

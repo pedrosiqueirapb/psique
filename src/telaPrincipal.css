@@ -60,16 +60,24 @@ header i{
 }
 
 /* Style corpo */
-.sobreNos #logotipo{
+.sobreNos #logotipo, .techPsique #logotipo{
     width: 384.615384615px;
     height: 384.615384615px;
     border: 3px solid #171a21;
 }
-.psicologos, .sobreNos, .techPsique{
-    margin-bottom: 2em;
+.atrPsique{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
 }
-.psicologos{
-    margin-top: 2em;
+.atrPsique #logotipo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.carrossel, .psicologos, .sobreNos, .techPsique{
+    margin-bottom: 2em;
 }
 h1{
     font-family: 'Josefin Sans', sans-serif;
@@ -107,11 +115,11 @@ p{
     letter-spacing: -0.02em;
     font-size: larger;
 }
-.sobreNos h1{
+.sobreNos h1, .techPsique h1{
     text-align: start;
 }
-#descricao{
-    font-size: larger;
+#texto{
+    font-size: 1.438em;
     letter-spacing: -0.02em;
     text-align: justify;
 }
