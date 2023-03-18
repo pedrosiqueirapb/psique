@@ -13,7 +13,7 @@ Aplicação web desenvolvida em HTML, CSS, JavaScript em conjunto com o framewor
 * André Lucas de Amorim Pinheiro
 * Kay
 * Pedro Siqueira Pereira Bitarães
-* Vitória Cristina
+* Vitória Cristina Simões da Silva
 
 ## Orientador
 
