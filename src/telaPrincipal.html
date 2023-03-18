@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
     <title>Psiquê</title>
 </head>
 <body>
@@ -42,6 +42,7 @@
     </header>
     <!-- Corpo -->
     <main>
+        <!-- Carrossel -->
         <div id="carouselExampleIndicators" class="carousel slide carrossel" data-bs-ride="true">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -69,47 +70,89 @@
             </button>
         </div>
 
+        <!-- Psicólogos -->
         <section class="psicologos">
             <h1>Psicólogos</h1>
-            <div class="container">
+
+            <!-- Imagens dos psicólogos no tema claro -->
+            <div class="container modoClaro">
                 <div class="row infosPsic">
                     <div class="col-4">
-                        <img src="imgs/camiloFundoClaro.jpg" alt="" id="imgPsic">
+                        <img src="imgs/psic1Light.jpg" alt="" id="imgPsic">
                     </div>
                     <div class="col-4">
-                        <img src="imgs/augustoFundoClaro.jpg" alt="" id="imgPsic">
+                        <img src="imgs/psic2Light.jpg" alt="" id="imgPsic">
                     </div>
                     <div class="col-4">
-                        <img src="imgs/luizaFundoClaro.jpg" alt="" id="imgPsic">
+                        <img src="imgs/psic3Light.jpg" alt="" id="imgPsic">
                     </div>
                 </div>
                 <div class="row infosPsic">
                     <div class="col-4">
-                        <img src="imgs/oliviaFundoClaro.jpg" alt="" id="imgPsic">
+                        <img src="imgs/psic4Light.jpg" alt="" id="imgPsic">
                     </div>
                     <div class="col-4">
-                        <img src="imgs/iagoFundoClaro.jpg" alt="" id="imgPsic">
+                        <img src="imgs/psic5Light.jpg" alt="" id="imgPsic">
                     </div>
                     <div class="col-4">
-                        <img src="" alt="" id="imgPsic">
+                        <img src="imgs/psic1Light.jpg" alt="" id="imgPsic">
                     </div>
                 </div>
                 <div class="row infosPsic">
                     <div class="col-4">
-                        <img src="imgs/juliaFundoClaro.jpg" alt="" id="imgPsic">
+                        <img src="imgs/psic7Light.jpg" alt="" id="imgPsic">
                     </div>
                     <div class="col-4">
-                        <img src="imgs/renataFundoClaro.jpg" alt="" id="imgPsic">
+                        <img src="imgs/psic6Light.jpg" alt="" id="imgPsic">
                     </div>
                     <div class="col-4">
-                        <img src="imgs/techFundoClaro.jpg" alt="" id="imgPsic">
+                        <img src="imgs/iaLight.jpg" alt="" id="imgPsic">
                     </div>
                 </div>
             </div>
+
+            <!-- Imagens dos psicólogos no tema escuro -->
+            <div class="container modoEscuro" style="display: none">
+                <div class="row infosPsic">
+                    <div class="col-4">
+                        <img src="imgs/psic1Dark.jpg" alt="" id="imgPsic">
+                    </div>
+                    <div class="col-4">
+                        <img src="imgs/psic2Dark.jpg" alt="" id="imgPsic">
+                    </div>
+                    <div class="col-4">
+                        <img src="imgs/psic3Dark.jpg" alt="" id="imgPsic">
+                    </div>
+                </div>
+                <div class="row infosPsic">
+                    <div class="col-4">
+                        <img src="imgs/psic4Dark.jpg" alt="" id="imgPsic">
+                    </div>
+                    <div class="col-4">
+                        <img src="imgs/psic5Dark.jpg" alt="" id="imgPsic">
+                    </div>
+                    <div class="col-4">
+                        <img src="imgs/psic1Dark.jpg" alt="" id="imgPsic">
+                    </div>
+                </div>
+                <div class="row infosPsic">
+                    <div class="col-4">
+                        <img src="imgs/psic7Dark.jpg" alt="" id="imgPsic">
+                    </div>
+                    <div class="col-4">
+                        <img src="imgs/psic6Dark.jpg" alt="" id="imgPsic">
+                    </div>
+                    <div class="col-4">
+                        <img src="imgs/iaDark.jpg" alt="" id="imgPsic">
+                    </div>
+                </div>
+            </div>
+
             <button type="button" id="btn-Mais">+ Mostrar mais</button>
             <button type="button" id="btn-Menos">- Mostrar menos</button>
         </section>
 
+        <!-- Sobre nós -->
         <section class="sobreNos">
             <div class="container">
                 <div class="row">
@@ -121,7 +164,13 @@
                         <p id="texto">Temos uma equipe de psicólogos capacitados e experientes em diversas abordagens psicoterapêuticas, oferecendo atendimento personalizado e ético, levando em conta as particularidades de cada paciente. Com abordagem integrada e foco em objetivos terapêuticos, buscamos melhorar a qualidade de vida.<br>Oferecemos consultas presenciais e online, com sistema de inteligência artificial para ajudar com problemas e agendamentos no site. As consultas presenciais estão disponíveis das 8h às 18h, e as online, até às 22h.</p>
                     </div>
                 </div>
-                <div class="row" style="margin-top: 3em;"> <!-- Missão, Visão e Valores -->
+            </div>
+        </section>
+
+        <!-- Missão, Visão e Valores -->
+        <section class="atributos">
+            <div class="container">
+                <div class="row" style="margin-top: 3em;">
                     <div class="col-4 atrPsique">
                         <img src="imgs/logotipo.jpeg" alt="" id="logotipo">
                         <h3>Missão</h3>
@@ -141,7 +190,8 @@
             </div>
         </section>
 
-        <section class="techPsique">
+        <!-- Inteligência Artificial -->
+        <section class="iaPsique">
             <div class="container">
                 <div class="row">
                     <div class="col-7">
@@ -149,7 +199,7 @@
                         <p id="texto">Contamos com uma inteligência artificial que aprende a cada nova função que é ensinada, o que nos permite oferecer suporte e orientação personalizados para lidar com problemas emocionais.<br>Nossa inteligência artificial funciona como um canal de comunicação instantâneo com nossos psicólogos altamente capacitados, que estão disponíveis para ajudá-lo a alcançar seus objetivos terapêuticos e melhorar sua qualidade de vida. Agende uma consulta conosco e descubra como nossa tecnologia pode fazer a diferença em sua vida.</p>
                     </div>
                     <div class="col-5">
-                        <img src="" alt="" id="logotipo">
+                        <img src="imgs/inteligenciaArtificial.png" alt="" id="imagemIA">
                     </div>
                 </div>
             </div>
