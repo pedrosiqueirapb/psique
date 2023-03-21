@@ -11,7 +11,7 @@ Aplicação web desenvolvida em HTML, CSS, JavaScript em conjunto com o framewor
 ## Integrantes
 
 * André Lucas de Amorim Pinheiro
-* Kay
+* Kaylaine Sthephany Machado de Almeida
 * Pedro Siqueira Pereira Bitarães
 * Vitória Cristina Simões da Silva
 
