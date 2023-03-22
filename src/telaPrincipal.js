@@ -7,6 +7,7 @@ $(document).ready(()=>{
         $('body').css('background-color', '#171a21')
         $('h1, h3, main p').css('color', '#FFF')
         $('#logotipo, #imagemIA').css('border-color', '#f3f2f2')
+        $('.atrPsique img').css('border-color', '#d0c3f1')
 
         $('.modoClaro').hide()
         $('.modoEscuro').show()
@@ -19,6 +20,7 @@ $(document).ready(()=>{
         $('body').css('background-color', '#f3f2f2')
         $('h1, h3, main p').css('color', '#000')
         $('#logotipo, #imagemIA').css('border-color', '#171a21')
+        $('.atrPsique img').css('border-color', '#1e0f24')
 
         $('.modoEscuro').hide()
         $('.modoClaro').show()

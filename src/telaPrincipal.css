@@ -60,6 +60,9 @@ header i{
 }
 
 /* Style corpo */
+.carrossel, .psicologos, .sobreNos, .atributos, .iaPsique{
+    margin-bottom: 2em;
+}
 .sobreNos #logotipo, #imagemIA{
     width: 384.615384615px;
     height: 384.615384615px;
@@ -71,13 +74,12 @@ header i{
     align-items: center;
     font-size: 1.2em;
 }
-.atrPsique #logotipo{
+.atrPsique img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-}
-.carrossel, .psicologos, .sobreNos, .atributos, .iaPsique{
-    margin-bottom: 2em;
+    border: 3px solid #1e0f24;
+    margin-bottom: 8px;
 }
 h1, h3{
     font-family: 'Josefin Sans', sans-serif;
@@ -119,7 +121,7 @@ footer p{
     padding: 10px;
     border: 2px solid #1e0f24;
     position: relative;
-    left: 27.5cm;
+    left: 28cm;
     border-radius: 2em;
     background-color: #483D8B;
     color: #FFF;
