@@ -61,7 +61,7 @@ header i{
 
 /* Style corpo */
 .carrossel, .psicologos, .sobreNos, .atributos, .iaPsique{
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 .sobreNos #logotipo, #imagemIA{
     width: 384.615384615px;
