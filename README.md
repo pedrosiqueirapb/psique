@@ -1,4 +1,4 @@
-# Psique
+# Psiquê
 
 `CURSO` Técnico em Informática
 
