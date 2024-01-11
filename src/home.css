@@ -61,6 +61,8 @@ h1, h3{
 }
 main p{
     font-family: 'Roboto Condensed', sans-serif;
+}
+#servicos p, #sobre p{
     text-align: justify;
 }
 #logotipo{
