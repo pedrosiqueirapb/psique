@@ -23,6 +23,25 @@ body::-webkit-scrollbar-thumb{
 }
 
 /* Cabeçalho */
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+}
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+}
+#menu li a{
+    color: #F7F7F7;
+    text-decoration: none;
+    font-size: 0.6cm;
+    padding: 10px;
+}
 #menu li a:hover{
     background-color: #1e0f24;
     transition: all 0.8s;
