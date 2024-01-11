@@ -48,14 +48,24 @@ a, label, .botao-enviar{
 }
 
 /* Corpo */
+section{
+    margin-bottom: 1cm;
+}
 h1, h3{
     font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
     font-variant: small-caps;
     letter-spacing: -0.02em;
 }
+#psicologos h1, #planos h1{
+    text-align: center;
+}
 main p{
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+}
+#logotipo{
+    width: 312.5px;
+    height: 312.5px;
 }
 
 /* Rodapé */
