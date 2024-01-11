@@ -36,13 +36,12 @@ a, label, .botao-enviar{
     letter-spacing: 0.02rem;
 }
 #menu li a{
-    color: #F7F7F7;
     text-decoration: none;
     font-variant: small-caps;
     font-size: 0.6cm;
     padding: 10px;
 }
-#menu li a:hover{
+#menu li a:hover, .redes-sociais a:hover{
     background-color: #1e0f24;
     transition: all 0.8s;
 }
@@ -79,6 +78,10 @@ main p{
     flex-direction: column;
     align-items: end;
 }
+.coluna-plano{
+    display: flex;
+    justify-content: center;
+}
 
 /* Rodapé */
 footer{
@@ -87,14 +90,14 @@ footer{
 footer p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+footer h1, footer p, h2, label, #menu li a, .redes-sociais a, .redes-sociais a:hover{
+    color: #F7F7F7;
+}
 label{
     margin-bottom: 0.3em;
 }
 .campo{
     margin-bottom: 0.4em;
-}
-footer h1, footer p, h2, label{
-    color: #F7F7F7;
 }
 span{
     margin: 0 0.8cm;
@@ -122,12 +125,11 @@ span{
 .redes-sociais a{
     text-decoration: none;
     font-size: 0.9cm;
-    color: #F7F7F7;
-    margin: 0 5px;
-}
-.redes-sociais a:hover{
-    color: #1e0f24;
     border-radius: 50%;
+    padding: 8px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
 }
 #mensagem{
     border-radius: 5px;
