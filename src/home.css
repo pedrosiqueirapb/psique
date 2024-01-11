@@ -1,0 +1,43 @@
+/* Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    background-color: #483D8B;
+}
+#tipografia{
+    width: 200px;
+    height: 200px;
+}
+body::-webkit-scrollbar{
+    width: 1.2em;
+}
+body::-webkit-scrollbar-track{
+    background-color: #1e0f24;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #d0c3f1;
+    border-radius: 10px;
+}
+
+/* Cabeçalho */
+#menu li a:hover{
+    background-color: #1e0f24;
+    transition: all 0.8s;
+}
+
+/* Corpo */
+h1, h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: -0.02em;
+}
+main p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+footer p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
