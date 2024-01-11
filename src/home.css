@@ -49,9 +49,9 @@ a, label, .botao-enviar{
 
 /* Corpo */
 section{
-    margin-bottom: 1cm;
+    margin-bottom: 0.5cm;
 }
-h1, h3{
+h1{
     font-family: 'Josefin Sans', sans-serif;
     font-variant: small-caps;
     letter-spacing: -0.02em;
@@ -62,12 +62,22 @@ h1, h3{
 main p{
     font-family: 'Roboto Condensed', sans-serif;
 }
-#servicos p, #sobre p{
+#sobre p, #servicos p{
     text-align: justify;
+    font-size: 1.2em;
 }
 #logotipo{
     width: 312.5px;
     height: 312.5px;
+}
+.fundo-logo{
+    display: flex;
+    justify-content: end;
+}
+.fundo-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 /* Rodapé */
@@ -118,4 +128,7 @@ span{
 .redes-sociais a:hover{
     color: #1e0f24;
     border-radius: 50%;
+}
+#mensagem{
+    border-radius: 5px;
 }
