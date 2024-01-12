@@ -87,6 +87,17 @@ main p{
     display: flex;
     justify-content: center;
 }
+.card-header{
+    background-color: #483D8B!important;
+    color: #F7F7F7!important;
+    font-size: larger;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+.card-text{
+    font-size: 1em;
+}
 .container-slider{
     max-width: 1200px;
     width: 95%;
