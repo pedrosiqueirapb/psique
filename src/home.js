@@ -62,11 +62,11 @@ function exibeInfosPsicologo(nomePsicologo, nomeExibicao, caminhoImagem){
             <footer>
                 <div class="container">
                     <div class="row">
-                        <div class="col-3">
-                            <img src="imgs/tipografia.png" alt="" id="tipografia">
-                        </div>
                         <div class="col-9">
                             <p>© 2024 Psiquê. Todos os direitos reservados.</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="imgs/tipografia.png" alt="" id="tipografia">
                         </div>
                     </div>
                 </div>
