@@ -29,7 +29,7 @@ ul{
 li{
     list-style-type: none;
 }
-a, label, .botao-enviar{
+a, label, #botao-enviar input{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     font-weight: 500;
     letter-spacing: 0.02rem;
@@ -203,7 +203,7 @@ footer p{
     justify-content: center;
     font-size: larger;
 }
-#infos-psique .redes-sociais{
+#infos-psique .redes-sociais, #botao-enviar, .redes-sociais#nova-aba{
     display: flex;
     justify-content: center;
 }
@@ -230,7 +230,7 @@ span{
 #nome, #email, #mensagem{
     width: 10cm;
 }
-.botao-enviar{
+#botao-enviar input{
     margin-top: 0.7em;
     width: 3cm;
 }
@@ -247,11 +247,6 @@ span{
     margin: 0 5px;
     display: flex;
     justify-content: center;
-}
-.redes-sociais#nova-aba{
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
 }
 #mensagem{
     border-radius: 5px;

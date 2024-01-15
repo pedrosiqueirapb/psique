@@ -237,23 +237,27 @@
                     <span style="align-items: end;">
                         <div class="contato">
                             <h1>Contate-nos</h1>
+                            
+                            <form action="enviar_email.php" method="post">
+                                <div class="campo">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" name="nome" id="nome">
+                                </div>
 
-                            <div class="campo">
-                                <label for="nome">Nome</label>
-                                <input type="text" name="nome" id="nome">
-                            </div>
+                                <div class="campo">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
 
-                            <div class="campo">
-                                <label for="email">E-mail</label>
-                                <input type="email" name="email" id="email">
-                            </div>
+                                <div class="campo">
+                                    <label for="mensagem">Mensagem</label>
+                                    <textarea name="mensagem" id="mensagem" cols="15" rows="7" required></textarea>
+                                </div>
 
-                            <div class="campo">
-                                <label for="mensagem">Mensagem</label>
-                                <textarea name="mensagem" id="mensagem" cols="15" rows="7"></textarea>
-                            </div>
-
-                            <button type="button" class="btn btn-light botao-enviar">Enviar</button>
+                                <div id="botao-enviar">
+                                    <input type="submit" value="Enviar">
+                                </div>
+                            </form>
                         </div>
                     </span>
                 </div>
