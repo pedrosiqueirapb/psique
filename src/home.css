@@ -21,7 +21,6 @@ body::-webkit-scrollbar-thumb{
     background-color: #d0c3f1;
     border-radius: 10px;
 }
-
 /* Cabeçalho */
 ul{
     display: flex;
@@ -50,12 +49,15 @@ a, label, .botao-enviar{
 section{
     margin-bottom: 1cm;
 }
+#sobre, #secaoPsicologo{
+    margin-top: 1cm;
+}
 h1{
     font-family: 'Josefin Sans', sans-serif;
     font-variant: small-caps;
     letter-spacing: -0.02em;
 }
-#psicologos, #planos{
+#psicologos, #planos, #infos-psique{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,18 +65,18 @@ h1{
 main p{
     font-family: 'Roboto Condensed', sans-serif;
 }
-#sobre p, #servicos p{
+#sobre p, #servicos p, #descricao{
     text-align: justify;
     font-size: 1.2em;
 }
-#imagem-servicos, #logotipo{
+#imagem-servicos, #logotipo, #container-imagem img{
     border: 1.5px solid #171a21;
 }
 #logotipo{
     width: 312px;
     height: 312px;
 }
-.fundo-logo{
+.fundo-logo, #container-imagem{
     display: flex;
     justify-content: end;
 }
@@ -197,6 +199,14 @@ footer{
 footer p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#infos-psique{
+    justify-content: center;
+    font-size: larger;
+}
+#infos-psique .redes-sociais{
+    display: flex;
+    justify-content: center;
+}
 footer h1, footer p, h2, label, #menu li a, .redes-sociais a, .redes-sociais a:hover{
     color: #F7F7F7;
 }
@@ -237,6 +247,11 @@ span{
     margin: 0 5px;
     display: flex;
     justify-content: center;
+}
+.redes-sociais#nova-aba{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
 }
 #mensagem{
     border-radius: 5px;

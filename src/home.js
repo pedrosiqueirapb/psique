@@ -28,50 +28,89 @@ function exibeInfosPsicologo(nomePsicologo, nomeExibicao, caminhoImagem){
 
     novaAba.document.write(`
         <html>
-        <head>
-            <title>${nomeExibicao}</title>
-            <link rel="stylesheet" href="home.css">
-            <!-- Bootstrap -->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-            <!-- Google Fonts -->
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-        </head>
-        <body>
-            <!-- Cabeçalho -->
-            <header>
-                <div class="container">
-                    <div class="row" style="align-items: center;">
-                        <div class="col-3">
-                            <img src="imgs/tipografia.png" alt="" id="tipografia">
+            <head>
+                <title>${nomeExibicao}</title>
+                <link rel="stylesheet" href="home.css">
+                <!-- Bootstrap -->
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+                <!-- Google Fonts -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+                <!-- Ícones do Google Fonts -->
+                <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet" />
+            </head>
+            <body>
+                <!-- Cabeçalho -->
+                <header>
+                    <div class="container">
+                        <div class="row" style="align-items: center;">
+                            <div class="col-3">
+                                <img src="imgs/tipografia.png" alt="" id="tipografia">
+                            </div>
+                            <div class="col-9">
+                                <nav id="menu">
+                                    <ul>
+                                        <li>
+                                            <a href="home.html">Página inicial</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </header>
+                </header>
 
-            <!-- Corpo -->
-            <main>
-                <h1>${nomeExibicao}</h1>
-                <img src="${caminhoImagem}" alt="${nomeExibicao}">
-                <p>${descPsicologo}</p>
-            </main>
-
-            <!-- Rodapé -->
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-9">
-                            <p>© 2024 Psiquê. Todos os direitos reservados.</p>
+                <!-- Corpo -->
+                <main>
+                    <br>
+                    <section id="secaoPsicologo">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3" id="container-imagem">
+                                    <img src="${caminhoImagem}" alt="${nomeExibicao}">
+                                </div>
+                                <div class="col-9">
+                                    <h1>${nomeExibicao}</h1>
+                                    <p id="descricao">${descPsicologo}</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-3">
-                            <img src="imgs/tipografia.png" alt="" id="tipografia">
+                    </section>
+                    <br>
+                </main>
+
+                <!-- Rodapé -->
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-7" id="infos-psique">
+                                <p>© 2024 Psiquê. Todos os direitos reservados.</p>
+
+                                <div class="redes-sociais">
+                                    <a href="https://wa.me/5531984122625" target="_blank">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/psiqu_ea/" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="https://twitter.com/Psiqu_ea" target="_blank">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <img src="imgs/tipografia.png" alt="" id="tipografia">
+                            </div>
                         </div>
                     </div>
-                </div>
-            </footer>
-        </body>
+                </footer>
+
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+                <script src="https://kit.fontawesome.com/756d230ae4.js" crossorigin="anonymous"></script>
+            </body>
         </html>
     `);
 
