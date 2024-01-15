@@ -85,7 +85,7 @@ main p{
     flex-direction: column;
     align-items: end;
 }
-.coluna-plano{
+.coluna-plano, .redes-sociais{
     display: flex;
 }
 .coluna-plano#plano-basico{
