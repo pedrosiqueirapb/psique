@@ -118,16 +118,16 @@
                     <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
 
                     <div class="image-list">
-                        <img src="imgs/psicologo-sete.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-cinco.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-tres.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-quatro.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-dois.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-seis.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-oito.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-um.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-nove.png" alt="" class="image-item">
-                        <img src="imgs/psicologo-dez.png" alt="" class="image-item">
+                        <img src="imgs/psicologo-sete.png" alt="" class="image-item" onclick="exibeInfosPsicologo('camila-silva', 'Camila Silva', 'imgs/psicologo-sete.png')">
+                        <img src="imgs/psicologo-cinco.png" alt="" class="image-item" onclick="exibeInfosPsicologo('mariana-souza', 'Mariana Souza', 'imgs/psicologo-cinco.png')">
+                        <img src="imgs/psicologo-tres.png" alt="" class="image-item" onclick="exibeInfosPsicologo('pedro-martins', 'Pedro Martins', 'imgs/psicologo-tres.png')">
+                        <img src="imgs/psicologo-quatro.png" alt="" class="image-item" onclick="exibeInfosPsicologo('rafael-oliveira', 'Rafael Oliveira', 'imgs/psicologo-quatro.png')">
+                        <img src="imgs/psicologo-dois.png" alt="" class="image-item" onclick="exibeInfosPsicologo('lucas-almeida', 'Lucas Almeida', 'imgs/psicologo-dois.png')">
+                        <img src="imgs/psicologo-seis.png" alt="" class="image-item" onclick="exibeInfosPsicologo('lais-pereira', 'Laís Pereira', 'imgs/psicologo-seis.png')">
+                        <img src="imgs/psicologo-oito.png" alt="" class="image-item" onclick="exibeInfosPsicologo('beatriz-rocha', 'Beatriz Rocha', 'imgs/psicologo-oito.png')">
+                        <img src="imgs/psicologo-um.png" alt="" class="image-item" onclick="exibeInfosPsicologo('andre-costa', 'André Costa', 'imgs/psicologo-um.png')">
+                        <img src="imgs/psicologo-nove.png" alt="" class="image-item" onclick="exibeInfosPsicologo('tiago-santos', 'Tiago Santos', 'imgs/psicologo-nove.png')">
+                        <img src="imgs/psicologo-dez.png" alt="" class="image-item" onclick="exibeInfosPsicologo('fernanda-lima', 'Fernanda Lima', 'imgs/psicologo-dez.png')">
                     </div>
 
                     <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
@@ -148,8 +148,8 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-4 coluna-plano">
-                        <div class="card border-dark mb-3" id="plano-basico" style="max-width: 18rem; margin-right: -1cm;">
+                    <div class="col-4 coluna-plano" id="plano-basico">
+                        <div class="card border-dark mb-3" id="plano-basico" style="max-width: 18rem;">
                             <div class="card-header">R$ 99,90</div>
                             
                             <div class="card-body text-dark">
@@ -172,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 coluna-plano">
+                    <div class="col-4 coluna-plano" id="plano-familiar">
                         <div class="card border-dark mb-3" style="max-width: 18rem;">
                             <div class="card-header">R$ 149,90</div>
 
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                     <div class="col-4 coluna-plano">
-                        <div class="card border-dark mb-3" style="max-width: 18rem; margin-left: -1cm;">
+                        <div class="card border-dark mb-3" style="max-width: 18rem;">
                             <div class="card-header">R$ 119,90</div>
 
                             <div class="card-body text-dark">

@@ -85,15 +85,19 @@ main p{
 }
 .coluna-plano{
     display: flex;
+}
+.coluna-plano#plano-basico{
+    justify-content: end;
+}
+.coluna-plano#plano-familiar{
     justify-content: center;
 }
 .card-header{
     background-color: #483D8B!important;
     color: #F7F7F7!important;
-    font-size: larger;
-    text-align: center;
+    text-shadow: 1px 1px #171a21;
+    font-size: large;
     font-weight: 500;
-    letter-spacing: 0.03em;
 }
 .card-text{
     font-size: 1em;
@@ -144,8 +148,9 @@ main p{
 .slider-wrapper .image-list .image-item{
     width: 195px;
     height: 195px;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
 }
 .container-slider .slider-scrollbar{
     height: 24px;
@@ -237,6 +242,7 @@ span{
     border-radius: 5px;
 }
 
+/* Responsividade */ 
 @media (max-width: 1023px){
     .slider-wrapper .slide-button{
         display: none!important;
