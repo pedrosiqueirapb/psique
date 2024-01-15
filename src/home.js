@@ -24,7 +24,7 @@ function exibeInfosPsicologo(nomePsicologo, nomeExibicao, caminhoImagem){
     const descPsicologo = infosPsicologo[nomePsicologo];
 
     // Nova aba com as informações
-    const novaAba = window.open('', '_blank');
+    const novaAba = window.open();
 
     novaAba.document.write(`
         <html>
